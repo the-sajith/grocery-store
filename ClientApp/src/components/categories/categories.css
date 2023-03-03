@@ -1,0 +1,22 @@
+ .box {
+     background: #fff;
+     border-radius: 0.5rem;
+     padding: 3rem 2rem;
+     text-align: center;
+     outline-offset: -1rem;
+     outline: var(--outline);
+     box-shadow: var(--box-shadow);
+ }
+
+ .box:hover {
+     outline-offset: 0;
+     outline: var(--outline-hover);
+ }
+
+ .box-container {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+     gap: 1.5 rem;
+     flex-wrap: wrap;
+
+ }

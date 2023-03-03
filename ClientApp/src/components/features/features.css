@@ -1,0 +1,17 @@
+.features 
+{
+ text-align: center;
+ font-size: 3.5 rem;
+ color: var(--black);
+padding: 2rem 0 3rem 0;
+
+}
+
+.box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5 rem;
+    flex-wrap: wrap;   
+        
+}
